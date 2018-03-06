@@ -35,34 +35,34 @@ repo.versions:
     "1.2-latest": "1.2.0"
     "1.3-latest": "1.3.0"
 
-repository.deps:
+repo.deps:
     mynewt-repo-01:
         type: git
         url: 'git@github.com:ccollins476ad/mynewt-repo-01.git'
         vers:
             # 0.0.0 --> ==0.0.0
-            master:             0-dev
+            master:             '0-dev'
 
     apache-mynewt-core:
         type: git
         url: 'git@github.com:apache/mynewt-core.git'
         vers:
             # 0.0.0 --> ==0.0.0
-            master:             0-dev
+            master:             '0-dev'
 
     mynewt_arduino_zero:
         type: git
         url: 'git@github.com:runtimeco/mynewt_arduino_zero.git'
         vers:
             # 1.3.0 --> ==1.3.0
-            mynewt_1_3_0_tag:   1.3.0
+            mynewt_1_3_0_tag:   '1.3.0'
 
     mynewt_nordic:
         type: git
         url: 'git@github.com:runtimeco/mynewt_nordic.git'
         vers:
             # 1.2.0 --> ==1.2.0
-            mynewt_1_2_0_tag:   1.2.0
+            mynewt_1_2_0_tag:   '1.2.0'
 
 repo.newt_compatibility:
     # Allow all versions for 0.0.0.  This is a workaround to prevent a warning
