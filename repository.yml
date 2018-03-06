@@ -61,8 +61,8 @@ repo.deps:
         type: git
         url: 'git@github.com:runtimeco/mcuboot.git'
         vers:
-            # 1.2.0 --> ==1.2.0
-            mynewt_1_2_0_tag:   '1.2.0'
+            # 1.2.0 --> ==1.1.0
+            mynewt_1_2_0_tag:   '1.1.0'
 
 repo.newt_compatibility:
     # Allow all versions for 0.0.0.  This is a workaround to prevent a warning
