@@ -57,9 +57,9 @@ repo.deps:
             # 1.3.0 --> ==1.3.0
             mynewt_1_3_0_tag:   '1.3.0'
 
-    mynewt_nordic:
+    mcuboot:
         type: git
-        url: 'git@github.com:runtimeco/mynewt_nordic.git'
+        url: 'git@github.com:runtimeco/mcuboot.git'
         vers:
             # 1.2.0 --> ==1.2.0
             mynewt_1_2_0_tag:   '1.2.0'
@@ -78,5 +78,3 @@ repo.newt_compatibility:
         1.1.0: good
     1.1.0:
         1.1.0: good
-
-
